@@ -2,19 +2,19 @@ package ch02_1_variable;
 
 public class VariableExchangeExample2 {
 	public static void main(String[] args) {
-//		[º¯¼ö¿¡ ÇÒ´çµÈ °ª ½º¿ÍÇÎ]
+//		[ë³€ìˆ˜ì— í• ë‹¹ëœ ê°’ ìŠ¤ì™€í•‘]
 		int x = 100;
 		int y = 200;
 		
-		System.out.println("xÀÇ °ª: " + x);
-		System.out.println("yÀÇ °ª:" + y);
+		System.out.println("xì˜ ê°’: " + x);
+		System.out.println("yì˜ ê°’:" + y);
 		
 		x=y;
-		System.out.println("x=y, xÀÇ °ª: " + x);
-		System.out.println("x=y, yÀÇ °ª:" + y);
-//		¿©±â±îÁö xÀÇ °ªÀÌ 200ÀÌ µÇ¾ú±â ¶§¹®¿¡ 
+		System.out.println("x=y, xì˜ ê°’: " + x);
+		System.out.println("x=y, yì˜ ê°’:" + y);
+//		ì—¬ê¸°ê¹Œì§€ xì˜ ê°’ì´ 200ì´ ë˜ì—ˆê¸° ë•Œë¬¸ì— 
 		y = x;
-//		y°ªÀÌ 100ÀÌ µÇÁö ¾ÊÀ½
+//		yê°’ì´ 100ì´ ë˜ì§€ ì•ŠìŒ
 		
 	}
 

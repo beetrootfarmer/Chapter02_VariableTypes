@@ -9,7 +9,7 @@ public class SystemInOut {
 		
 		try {
 		//keyCode = System.in.read();
-//						intÇü ¼ıÀÚ°¡ ¿Â´Ù
+//						intí˜• ìˆ«ìê°€ ì˜¨ë‹¤
 			System.out.printf("keyCode: %d\n", System.in.read());
 			System.out.printf("keyCode: %d\n", System.in.read());
 			System.out.printf("keyCode: %d\n", System.in.read());
@@ -21,7 +21,7 @@ public class SystemInOut {
 			e.printStackTrace();
 		}
 		
-		//System.out.printf("keyCode: %d\n") //try catch »çÀÌ¿¡ ÀÌ·¸°Ô ¾²±âµµSystem.out.printf("keyCode: %d\n", System.in.read())
+		//System.out.printf("keyCode: %d\n") //try catch ì‚¬ì´ì— ì´ë ‡ê²Œ ì“°ê¸°ë„System.out.printf("keyCode: %d\n", System.in.read())
 	}
 
 }

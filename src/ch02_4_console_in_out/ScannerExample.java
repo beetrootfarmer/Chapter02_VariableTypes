@@ -6,42 +6,42 @@ import java.util.Scanner;
 public class ScannerExample {
 	public static void main(String[] args) {
 		
-//		Scanner scn = new Scanner(System.in); // ¸Ç Ã³À½¿¡ Scanner¼±¾ğ ¾ÈÇÏ¸é class¸í ¾µ ¶§¸¶´Ù java.until.Scanner¶ó°í Àû¾îÁà¾ßÇÔ
-//		String str = ""; //½ÃÀÛÇÒ ¶§ ÃÊ±âÈ­!
+//		Scanner scn = new Scanner(System.in); // ë§¨ ì²˜ìŒì— Scannerì„ ì–¸ ì•ˆí•˜ë©´ classëª… ì“¸ ë•Œë§ˆë‹¤ java.until.Scannerë¼ê³  ì ì–´ì¤˜ì•¼í•¨
+//		String str = ""; //ì‹œì‘í•  ë•Œ ì´ˆê¸°í™”!
 //
 //		while(true) {
 //			
 //			str = scn.nextLine();
-//			System.out.printf("ÀÔ·ÂÇÏ½Å ¹®ÀÚ¿­Àº \"%s\"ÀÔ´Ï´Ù.\n", str );//´ÜÃàÅ° Ãß°¡ preference¿¡ template¿¡¼­ Ãß°¡
+//			System.out.printf("ì…ë ¥í•˜ì‹  ë¬¸ìì—´ì€ \"%s\"ì…ë‹ˆë‹¤.\n", str );//ë‹¨ì¶•í‚¤ ì¶”ê°€ preferenceì— templateì—ì„œ ì¶”ê°€
 //			if(str.equalsIgnoreCase("q")) {
 //				break;
 //		}
 //		}
-//		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¤»óÀûÀ¸·Î Á¾·áµÇ¾ú½À´Ï´Ù.");
+//		System.out.println("í”„ë¡œê·¸ë¨ì´ ì •ìƒì ìœ¼ë¡œ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 //		scn.close();
 
-		Scanner scn = new Scanner(System.in); // ¸Ç Ã³À½¿¡ Scanner¼±¾ğ ¾ÈÇÏ¸é class¸í ¾µ ¶§¸¶´Ù java.until.Scanner¶ó°í Àû¾îÁà¾ßÇÔ
-		String str = ""; //½ÃÀÛÇÒ ¶§ ÃÊ±âÈ­!
+		Scanner scn = new Scanner(System.in); // ë§¨ ì²˜ìŒì— Scannerì„ ì–¸ ì•ˆí•˜ë©´ classëª… ì“¸ ë•Œë§ˆë‹¤ java.until.Scannerë¼ê³  ì ì–´ì¤˜ì•¼í•¨
+		String str = ""; //ì‹œì‘í•  ë•Œ ì´ˆê¸°í™”!
 
 		while(true) {
-			System.out.println("¦¢___________¦¢" );
-			System.out.println("     ¸Ş ´º         " );
-			System.out.println("¦¢___________¦¢\n" );
+			System.out.println("â”‚___________â”‚" );
+			System.out.println("     ë©” ë‰´         " );
+			System.out.println("â”‚___________â”‚\n" );
 			
 			str = scn.nextLine();
-			if(str.equals("1")) //»ç¿ëÀÚÀÇ ÀÔ·Â°ªÀ» ÀĞ°í µ¿ÀÛÇÏ°Ô ÇÏ´Â ºÎºĞ!!
-//				.... ÀÔ·Â°ªÀÌ () ÀÏ¶§ Á¤ÇØÁø °á°ú°¡ ³ª¿Àµµ·Ï. while±¸Á¶¸¦ »ç¿ëÇÒ ¼ö ÀÖÀ½
+			if(str.equals("1")) //ì‚¬ìš©ìì˜ ì…ë ¥ê°’ì„ ì½ê³  ë™ì‘í•˜ê²Œ í•˜ëŠ” ë¶€ë¶„!!
+//				.... ì…ë ¥ê°’ì´ () ì¼ë•Œ ì •í•´ì§„ ê²°ê³¼ê°€ ë‚˜ì˜¤ë„ë¡. whileêµ¬ì¡°ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìˆìŒ
 				
 				
-			 System.out.printf("¿À´Ã Á¡½ÉÀº \"%s\"Äá±¹¼öÀÔ´Ï´Ù.\n", str );//´ÜÃàÅ° Ãß°¡ preference¿¡ template¿¡¼­ Ãß°¡
+			 System.out.printf("ì˜¤ëŠ˜ ì ì‹¬ì€ \"%s\"ì½©êµ­ìˆ˜ì…ë‹ˆë‹¤.\n", str );//ë‹¨ì¶•í‚¤ ì¶”ê°€ preferenceì— templateì—ì„œ ì¶”ê°€
 			
 			if(str.equals("2"))
-				System.out.printf("¿À´Ã Á¡½ÉÀº \"%s\"»ø·¯µåÀÔ´Ï´Ù.\n", str );
+				System.out.printf("ì˜¤ëŠ˜ ì ì‹¬ì€ \"%s\"ìƒëŸ¬ë“œì…ë‹ˆë‹¤.\n", str );
 			if(str.equalsIgnoreCase("q")) {
 				break;
 		}
 		}
-		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¤»óÀûÀ¸·Î Á¾·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("í”„ë¡œê·¸ë¨ì´ ì •ìƒì ìœ¼ë¡œ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		scn.close();
 }
 }

@@ -6,11 +6,11 @@ public class CharExample {
 		char c1 = 'A'; 
 		char c2 = 65; 
 		char c3 = '\u0041';
-//		ÀÎÄÚµù : character¸¦ ¼ıÀÚ±âÈ£·Î ~ A->65
-//		µğÄÚµù : ¼ıÀÚ±âÈ£¸¦ character·Î ~ 65->A
-//		\ u µÚ¿¡¿À´Â °ÍÀº 16Áø¼ö 
+//		ì¸ì½”ë”© : characterë¥¼ ìˆ«ìê¸°í˜¸ë¡œ ~ A->65
+//		ë””ì½”ë”© : ìˆ«ìê¸°í˜¸ë¥¼ characterë¡œ ~ 65->A
+//		\ u ë’¤ì—ì˜¤ëŠ” ê²ƒì€ 16ì§„ìˆ˜ 
 		
-		char c4 = '°¡';
+		char c4 = 'ê°€';
 		char c5 = 44032;
 		char c6 = '\uac00';
 				

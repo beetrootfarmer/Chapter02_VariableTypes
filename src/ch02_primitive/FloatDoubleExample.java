@@ -2,12 +2,12 @@ package ch02_primitive;
 
 public class FloatDoubleExample {
 	public static void main(String[] args) {
-	//½Ç¼ö°ª ÀúÀå
+	//ì‹¤ìˆ˜ê°’ ì €ì¥
 	//float var = 3.14;
 	float var2 = 3.14f;
 	double var3 = 3.14;
 	
-	//Á¤¹Ğµµ Å×½ºÆ®
+	//ì •ë°€ë„ í…ŒìŠ¤íŠ¸
 	float var4 = 0.1234567890123456789f;
 	double var5 = 0.1234567890123456789;
 	
@@ -16,7 +16,7 @@ public class FloatDoubleExample {
 	System.out.println("var4: " + var4);
 	System.out.println("var5: " + var5);
 	
-	//e »ç¿ëÇÏ±â
+	//e ì‚¬ìš©í•˜ê¸°
 	double var6 = 3e6;
 	float var7 = 3e6F;
 	double var8 = 2e-3;

@@ -6,14 +6,14 @@ public class VariableUseExample {
 		// TODO Auto-generated method stub
 		int hour = 3;
 		int minute =5;
-		System.out.println(hour + "½Ã°£" + minute + "ºĞ");
-//							3	+	½Ã°£		5	 	ºĞ
-//				¹®ÀÚ¿­: 		"3"+"½Ã°£" ~> ¼ö + ¹®ÀÚ´Â ¹®ÀÚ¿­ÀÌ µÈ´Ù
-		/*¿¹½Ã System.out.println(3+3);Àº 6À¸·Î »ê¼ú¿¬»êµÇ¾î¼­ ³ª¿À°í
-				System.out.println("3"+3);Àº 3¿·¿¡ 3 ¹®ÀÚ°¡ ºÙ¾î¼­ 33À¸·Î ³ª¿Â´Ù*/
+		System.out.println(hour + "ì‹œê°„" + minute + "ë¶„");
+//							3	+	ì‹œê°„		5	 	ë¶„
+//				ë¬¸ìì—´: 		"3"+"ì‹œê°„" ~> ìˆ˜ + ë¬¸ìëŠ” ë¬¸ìì—´ì´ ëœë‹¤
+		/*ì˜ˆì‹œ System.out.println(3+3);ì€ 6ìœ¼ë¡œ ì‚°ìˆ ì—°ì‚°ë˜ì–´ì„œ ë‚˜ì˜¤ê³ 
+				System.out.println("3"+3);ì€ 3ì˜†ì— 3 ë¬¸ìê°€ ë¶™ì–´ì„œ 33ìœ¼ë¡œ ë‚˜ì˜¨ë‹¤*/
 
 		int totalMinute = (hour*60) + minute;
-		System.out.println("ÃÑ" + totalMinute + "ºĞ");
+		System.out.println("ì´" + totalMinute + "ë¶„");
 	}
 
 }

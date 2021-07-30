@@ -3,15 +3,15 @@ package ch02_primitive;
 public class LongExample {
 	public static void main(String[] args) {
 		/*
-		 * ±âº»ÀûÀ¸·Î ÀÚ¹Ù ÄÄÆÄÀÏ·¯´Â Á¤¼ö ¸®ÅÍ·²À» int ÇüÀ¸·Î °£ÁÖÇÑ´Ù
-		 * longÅ¸ÀÔÀÓÀ» ¸í½ÃÀûÀ¸·Î ÄÄÆÄÀÏ·¯¿¡°Ô ¾Ë·ÁÁà¾ß ÇÑ´Ù
+		 * ê¸°ë³¸ì ìœ¼ë¡œ ìë°” ì»´íŒŒì¼ëŸ¬ëŠ” ì •ìˆ˜ ë¦¬í„°ëŸ´ì„ int í˜•ìœ¼ë¡œ ê°„ì£¼í•œë‹¤
+		 * longíƒ€ì…ì„ì„ ëª…ì‹œì ìœ¼ë¡œ ì»´íŒŒì¼ëŸ¬ì—ê²Œ ì•Œë ¤ì¤˜ì•¼ í•œë‹¤
 		 */
 		
 		
 		long var1 = 10;
 		long var2 = 20L;
 		//long var3 = 1000000000000;
-		long var4 = 1000000000000L; //LÇ¥½Ã : "8byte·Î ¼¼ÆÃÇØ" 
+		long var4 = 1000000000000L; //Lí‘œì‹œ : "8byteë¡œ ì„¸íŒ…í•´" 
 		
 		System.out.println(var1);
 		System.out.println(var2);

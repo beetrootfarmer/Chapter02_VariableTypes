@@ -13,7 +13,7 @@ public class QStopExample {
 				keyCode = System.in.read();
 			
 				System.out.printf("keyCode: %d\n ", keyCode);
-				if(keyCode == 'q' /*(¿À¿Í¿¬»ê??) keyCode == 'Q'*/) { //qÀÎ°¡?)
+				if(keyCode == 'q' /*(ì˜¤ì™€ì—°ì‚°??) keyCode == 'Q'*/) { //qì¸ê°€?)
 						working = false;
 				}
 			}
@@ -21,7 +21,7 @@ public class QStopExample {
 				e.printStackTrace();
 				
 			}
-	System.out.println("ÇÁ·Î±×·¥ÀÌ Á¤»óÀûÀ¸·Î Á¾·áµÇ¾ú½À´Ï´Ù.");		}
+	System.out.println("í”„ë¡œê·¸ë¨ì´ ì •ìƒì ìœ¼ë¡œ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");		}
 	
 			
 

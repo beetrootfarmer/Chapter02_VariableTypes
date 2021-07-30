@@ -5,14 +5,14 @@ public class VariableScopeExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int v1 =15;
-		if(v1>10 ) { //Áß°ıÈ£ ¾È¿¡¼­ ÀÔ·ÂµÈ º¯¼ö´Â °°Àº °ıÈ£ ³»¿¡¼­¸¸ Àû¿ëµÈ´Ù
+		if(v1>10 ) { //ì¤‘ê´„í˜¸ ì•ˆì—ì„œ ì…ë ¥ëœ ë³€ìˆ˜ëŠ” ê°™ì€ ê´„í˜¸ ë‚´ì—ì„œë§Œ ì ìš©ëœë‹¤
 			int v2;
 			v2 =v1 -10;
 		int v3 = v1 + v2 + 5;
 		System.out.println("v1: " + v1);
 		System.out.println("v2: " + v2);}
 	}
-//	for ¹İº¹¹®
+//	for ë°˜ë³µë¬¸
 //	switch 
 
 }

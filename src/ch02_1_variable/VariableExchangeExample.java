@@ -2,7 +2,7 @@ package ch02_1_variable;
 
 public class VariableExchangeExample {
 	public static void main(String[] args) {
-//		[º¯¼ö¿¡ ÇÒ´çµÈ °ª ½º¿ÍÇÎ]
+//		[ë³€ìˆ˜ì— í• ë‹¹ëœ ê°’ ìŠ¤ì™€í•‘]
 		int x = 100;
 		int y = 200;
 		int temp;
@@ -10,12 +10,12 @@ public class VariableExchangeExample {
 		temp = x; //100
 		
 		x=y; //200
-		System.out.println("x=y, xÀÇ °ª: " + x);
-		System.out.println("x=y, yÀÇ °ª:" + y);
+		System.out.println("x=y, xì˜ ê°’: " + x);
+		System.out.println("x=y, yì˜ ê°’:" + y);
 
 		y = temp; //x:200 temp:100
-		System.out.println("y=x, xÀÇ °ª: " + x);
-		System.out.println("y=x, yÀÇ °ª:" + y);
+		System.out.println("y=x, xì˜ ê°’: " + x);
+		System.out.println("y=x, yì˜ ê°’:" + y);
 		
 		System.out.println("x="+x+", y="+y);
 	}
